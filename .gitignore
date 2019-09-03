@@ -1,0 +1,11 @@
+# bundle
+.bundle
+vendor/
+
+# site
+_site/
+.jekyll-cache/
+
+# hacks
+Gemfile.lock
+
