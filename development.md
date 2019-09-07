@@ -58,6 +58,11 @@ Ubuntu:
 
 	$ sudo apt install ruby-full rubygems
 
+Now you will need to add the following paths to your `.bashrc`.
+
+	export GEM_PATH=~/.gem
+	export GEM_HOME=~/.gem
+
 Then we need bundler, a per-project package manager:
 
 	$ gem install bundler
